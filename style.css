@@ -1,0 +1,132 @@
+*{box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,700&family=Lexend+Deca&family=Montserrat:ital,wght@0,500;1,700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:ital,opsz,wght@1,9..144,700&family=Lexend+Deca&family=Montserrat:ital,wght@0,500;1,700&display=swap');
+}
+body{
+    background-color:hsl(0, 0%, 95%)
+}
+h1{    font-family: 'Big Shoulders Display', cursive;}
+p{font-family: 'Lexend Deca'
+}
+.cards{
+    position: relative;
+    display: flex;
+    width: 700px;
+    height: 350px;
+    margin: 10% 0 0 30%;
+    border-radius: 5px;
+}
+.card1{
+    background-color: hsl(31, 77%, 52%);
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+
+
+}
+
+.tit1{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-transform: uppercase;
+
+    
+}
+.pr1{
+    font-size: 15px;
+    padding-bottom: 15px;
+    padding-top: 30px;
+
+    
+}
+
+button{
+   width: 55%;
+   height: 10%;
+    cursor: pointer;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    border-style: solid;
+    border-color: white;
+
+}
+
+.card2{
+    background-color: hsl(184, 100%, 22%);
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+
+
+}
+
+.tit2{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-transform: uppercase;
+
+    
+}
+.pr2{
+    font-size: 15px;
+    padding-bottom: 15px;
+    padding-top: 30px;
+
+    
+}
+
+.card3{
+    background-color:hsl(179, 100%, 13%);
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+
+
+}
+
+.tit3{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-transform: uppercase;
+
+    
+}
+.pr3{
+    font-size: 15px;
+    padding-bottom: 15px;
+    padding-top: 30px;
+
+    
+}
+.bt1{ 
+    background-color: hsl(31, 77%, 52%);
+}
+.bt2{
+    background-color: hsl(184, 100%, 22%);
+margin-top: 20px;
+}
+.bt3{    background-color:hsl(179, 100%, 13%);
+}
+
+@media screen and (max-width:375px) {
+    .cards{
+        
+        flex-direction: column;
+        width: 200px;
+        height: 600px;
+        margin: 7% 10% 0 10%;
+        
+      
+    }
+
+}
+@media screen and (min-width:375px){
+    .cards{
+    width: 700px;
+    height: 350px;
+    margin: 10% 0 0 30%;
+}
+}
